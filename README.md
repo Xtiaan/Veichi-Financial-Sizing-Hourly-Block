@@ -41,7 +41,7 @@ The Excel file contains the following logic structure in the `Irrigation Technic
 6. **G29\:G41** — Minimum Drive Hz limit: if Drive Output < threshold (e.g. 35%), output = 0
 7. **H29\:H41** — Apply loss factor to calculate effective output
 8. **I29\:I41** — Hourly usable pump output = H ÷ F
-9. **L27\:X27** — Total pumping hours available per month ## this values should be extracted from the Financial-Sizing-Monthly-Block
+9. **L27\:X27** — Total pumping hours available per month (this values should be extracted from the Financial-Sizing-Monthly-Block)
 10. **L29\:X41** — Hourly spread of those total hours centered around 12:00
 11. **L43\:X43** — Daily energy yield = `SUMPRODUCT(I29:I41, L29:X41)`
 
